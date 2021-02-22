@@ -1,0 +1,9 @@
+version: '3.4'
+services:
+
+        p1:
+                build:
+                        context: p1
+                container_name: p1
+                restart: always
+
