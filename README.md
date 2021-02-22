@@ -1,24 +1,6 @@
 # nameproject
 
-## Project setup
-```
-npm install
-```
+## How to Use
+docker-compose -f docker-compose_ngx.yml up -d --build
+docker-compose -f docker-compose_p1.yml up -d --build
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
