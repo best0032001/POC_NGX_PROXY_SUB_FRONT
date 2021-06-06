@@ -1,4 +1,4 @@
-version: '3.4'
+version: '3.5'
 services:
 
         p1:
@@ -6,4 +6,9 @@ services:
                         context: p1
                 container_name: p1
                 restart: always
-
+                networks:
+                        - compose_network
+networks:
+        compose_network:
+                external:
+                        name: compose_network
